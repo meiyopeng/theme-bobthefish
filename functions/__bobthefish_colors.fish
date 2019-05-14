@@ -29,6 +29,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      magenta white --bold
       set -x color_username                 white black --bold
       set -x color_hostname                 white black
+      set -x color_guix_environment         brblue $colorfg --bold
       set -x color_rvm                      brmagenta $colorfg --bold
       set -x color_virtualfish              brblue $colorfg --bold
       set -x color_virtualgo                brblue $colorfg --bold
@@ -59,6 +60,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      magenta white --bold
       set -x color_username                 black white --bold
       set -x color_hostname                 black white
+      set -x color_guix_environment         brblue $colorfg --bold
       set -x color_rvm                      brmagenta $colorfg --bold
       set -x color_virtualfish              brblue $colorfg --bold
       set -x color_virtualgo                brblue $colorfg --bold
@@ -89,6 +91,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      magenta white --bold
       set -x color_username                 brgrey white --bold
       set -x color_hostname                 brgrey white
+      set -x color_guix_environment         brblue $colorfg --bold
       set -x color_rvm                      brmagenta $colorfg --bold
       set -x color_virtualfish              brblue $colorfg --bold
       set -x color_virtualgo                brblue $colorfg --bold
@@ -119,6 +122,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      magenta white --bold
       set -x color_username                 grey black --bold
       set -x color_hostname                 grey black
+      set -x color_guix_environment         brblue $colorfg --bold
       set -x color_rvm                      brmagenta $colorfg --bold
       set -x color_virtualfish              brblue $colorfg --bold
       set -x color_virtualgo                brblue $colorfg --bold
@@ -155,6 +159,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      $green $white --bold
       set -x color_username                 $grey $blue --bold
       set -x color_hostname                 $grey $blue
+      set -x color_guix_environment         $blue $grey --bold
       set -x color_rvm                      $red $grey --bold
       set -x color_virtualfish              $blue $grey --bold
       set -x color_virtualgo                $blue $grey --bold
@@ -202,6 +207,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      $base06 $colorfg --bold
       set -x color_username                 $base02 $base0D --bold
       set -x color_hostname                 $base02 $base0D
+      set -x color_guix_environment         $base0D $colorfg --bold
       set -x color_rvm                      $base08 $colorfg --bold
       set -x color_virtualfish              $base0D $colorfg --bold
       set -x color_virtualgo                $base0D $colorfg --bold
@@ -249,6 +255,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      $base0B $colorfg --bold
       set -x color_username                 $base02 $base0D --bold
       set -x color_hostname                 $base02 $base0D
+      set -x color_guix_environment         $base0D $colorfg --bold
       set -x color_rvm                      $base08 $colorfg --bold
       set -x color_virtualfish              $base0D $colorfg --bold
       set -x color_virtualgo                $base0D $colorfg --bold
@@ -296,6 +303,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      $green $colorfg --bold
       set -x color_username                 $base2 $blue --bold
       set -x color_hostname                 $base2 $blue
+      set -x color_guix_environment         $cyan $colorfg --bold
       set -x color_rvm                      $red $colorfg --bold
       set -x color_virtualfish              $cyan $colorfg --bold
       set -x color_virtualgo                $cyan $colorfg --bold
@@ -343,6 +351,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      $green $colorfg --bold
       set -x color_username                 $base02 $blue --bold
       set -x color_hostname                 $base02 $blue
+      set -x color_guix_environment         $cyan $colorfg --bold
       set -x color_rvm                      $red $colorfg --bold
       set -x color_virtualfish              $cyan $colorfg --bold
       set -x color_virtualgo                $cyan $colorfg --bold
@@ -383,6 +392,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      $green[1] $colorfg --bold
       set -x color_username                 $grey[1] $blue[3] --bold
       set -x color_hostname                 $grey[1] $blue[3]
+      set -x color_guix_environment         $blue[2] $grey[1] --bold
       set -x color_rvm                      $ruby_red $grey[1] --bold
       set -x color_virtualfish              $blue[2] $grey[1] --bold
       set -x color_virtualgo                $blue[2] $grey[1] --bold
@@ -422,6 +432,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                   $green[2] $fg[2] --bold
       set -x color_username              $fg[3] $blue[2] --bold
       set -x color_hostname              $fg[3] $blue[2]
+      set -x color_guix_environment      $blue[2] $fg[2] --bold
       set -x color_rvm                   $red[2] $fg[2] --bold
       set -x color_virtualfish           $blue[2] $fg[2] --bold
       set -x color_virtualgo             $blue[2] $fg[2] --bold
@@ -463,6 +474,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                   $green $fg --bold
       set -x color_username              $selection $cyan --bold
       set -x color_hostname              $selection $cyan
+      set -x color_guix_environment      $comment $bg --bold
       set -x color_rvm                   $red $bg --bold
       set -x color_virtualfish           $comment $bg --bold
       set -x color_virtualgo             $cyan $bg --bold
@@ -504,6 +516,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_k8s                      $green[2] $white --bold
       set -x color_username                 $grey[1] $blue[3] --bold
       set -x color_hostname                 $grey[1] $blue[3]
+      set -x color_guix_environment         $blue[2] $grey[1] --bold
       set -x color_rvm                      $ruby_red $grey[1] --bold
       set -x color_virtualfish              $blue[2] $grey[1] --bold
       set -x color_virtualgo                $go_blue $black --bold
@@ -529,6 +542,7 @@ function __bobthefish_user_color_scheme_deprecated
   set -q __color_vagrant;               or set -l __color_vagrant               48b4fb ffffff --bold
   set -q __color_username;              or set -l __color_username              cccccc 255e87 --bold
   set -q __color_hostname;              or set -l __color_hostname              cccccc 255e87
+  set -q __color_guix_environment;      or set -l __color_guix_environment      005faf cccccc --bold
   set -q __color_rvm;                   or set -l __color_rvm                   af0000 cccccc --bold
   set -q __color_virtualfish;           or set -l __color_virtualfish           005faf cccccc --bold
   set -q __color_virtualgo;             or set -l __color_virtualgo             005faf cccccc --bold
@@ -565,6 +579,7 @@ function __bobthefish_user_color_scheme_deprecated
   set -x color_vagrant               $__color_vagrant
   set -x color_username              $__color_username
   set -x color_hostname              $__color_hostname
+  set -x color_guix_environment      $__color_guix_environment
   set -x color_rvm                   $__color_rvm
   set -x color_virtualfish           $__color_virtualfish
   set -x color_virtualgo             $__color_virtualgo
